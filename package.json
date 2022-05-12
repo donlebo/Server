@@ -1,0 +1,19 @@
+{
+  "name": "serveresame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/app.js",
+  "scripts": {
+    "start": "npm run build && node ./build/app.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "array_film": "^1.2.1",
+    "express": "^4.17.1",
+    "uuidv4": "^6.2.12"
+  }
+}
